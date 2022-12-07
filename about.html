@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Mayberry & Sons</title>
+	
+	<!-- bootstrap & bootstrap theme -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://bootswatch.com/4/solar/bootstrap.min.css">
+
+	<!-- styles -->
+	<link rel="stylesheet" href="styles.css">
+	<!-- font links -->
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&family=Berkshire+Swash&family=Corben&family=Damion&family=Diplomata+SC&family=Ewert&family=Fascinate+Inline&family=Girassol&family=Grand+Hotel&family=IM+Fell+DW+Pica+SC&family=Nerko+One&family=Playfair+Display&family=Pompiere&family=Raleway&family=Rye&family=Sancreek&family=Smokum&family=Walter+Turncoat&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	
+	<!-- Nav -->
+	<nav class="navbar navbar-expand">
+		<a class="navbar-brand" href="/">Mayberry & Sons</a>
+		<div class="navbar-nav">
+			<a class="nav-item nav-link" href="index.html">Home</a>
+			<a class="nav-item nav-link" href="gallery.html">Gallery</a>
+			<a class="nav-item nav-link active" href="about.html">About</a>
+		</div>
+	</nav>
+
+	<!-- About -->
+
+	<div class="about">
+		<div class="row mx-auto">
+			<div class="card" style="width: 35rem">
+				<div class="about-text">
+					<h1>What we do</h1>
+					<p>Jon works on a variety of projects relating to motor vehicles and other miscellaneous quality-of-life homestead updates. He's teaching his sons the ropes along the way. Soon, they will conquer every project they have ever had the idea for. Someday.</p>
+				</div>
+			</div>
+			<div class="about-img">
+				<img src="images/54-ford-cruisin.jpeg" class="about-img p-3" alt="54 ford">
+			</div>
+		</div>
+		
+		
+		
+		<!-- Shop -->
+
+		<div class="shop">
+			<h2>Buy our merch! Coming soon...</h2>
+		</div>
+	</div>
+
+	
+
+	<!-- Contact -->
+
+	<!-- Button trigger modal -->
+	<div class="modal-trigger-btn">
+		<button type="button" class="btn" id="modal-trigger-btn" data-toggle="modal" data-target="#basicExampleModal">
+			Contact Us
+		</button>
+	</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="basicExampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Contact Us</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+				<div class="form-group">
+					<label for="name">Name:</label>
+					<input type="name" class="form-control" id="name-input" placeholder="Name">
+				</div>
+				<div class="form-group">
+					<label for="email">Email:</label>
+					<input type="email" class="form-control" id="email-input" placeholder="example@gmail.com">
+				</div>
+				<div class="form-group">
+					<label for="text-area">Message:</label>
+					<textarea class="form-control" id="text-input" rows="3"></textarea>
+				</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn" data-dismiss="modal">Close</button>
+        <button type="button" class="btn">Save</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+	<!-- Footer -->
+	<div class="footer p-2">
+		<p class="footer-copy m-2 text-center"> &copy; 2022 Mayberry & Sons</p>
+	</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	
+</body>
+</html>
