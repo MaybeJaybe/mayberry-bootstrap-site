@@ -1,4 +1,7 @@
-body {
+* {
+	margin: 0;
+}
+body{
 	background-color: #282828;
 	color: #181818;
 	font-family: 'Raleway', sans-serif;
@@ -19,8 +22,11 @@ body {
 	/* font-family: 'Sancreek', cursive; */
 	/* font-family: 'Smokum', cursive; */
 	/* font-family: 'Walter Turncoat', cursive; */
-	font-size: 20px;
+	font-size: 1em;
+	margin: 0;
 }
+
+/* Nav */
 .navbar {
 	background-color: #88c2c9;
 }
@@ -33,65 +39,99 @@ body {
 .navbar-nav :hover {
 	color: #080808;
 	background-color: #7cb5bb;
-	border-radius: 4px;
+	border-radius: 5px;
 }
 .active {
 	color: #282828;
+}
+
+/* Footer */
+.footer {
+	background-color: #181818;
+	color: #e8e8e8;
+	padding: .5em;
+}
+
+/* Home */
+/* #hero-card {
+	margin: 0;
+	border: none;
+	border-radius: 0;
+} */
+/* .card-img-overlay {
+	font-family: 'Corben', cursive;
+	background-color: #2828289c;
+	color: #e8e8e8;
+	border-radius: 1em;
+	margin: auto;
+	height: fit-content;
+	padding: 2em;
+} */
+#hero-title {
+	font-size: 2.8rem;
+}
+#hero-descrip {
+	font-size: 1rem;
+}
+#hero-subtitle {
+	font-size: 2rem;
 }
 .hero-background-img {
 	background-color: #282828;
   background-image: url("/images/scout-phase-5-scenery.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-	background-position: center;
+	background-position: bottom;
+	height: 90vh;
 	position: relative;
-  background: rgba(0, 0, 0, 0.009);
-  padding-top: 200px;  
-  padding-bottom: 360px;
+	margin: 0;
 }
-.hero-background-img:after {
-  content: "";
-  position: absolute;
-  background-image: url("images/scout-phase-5-scenery.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
-	opacity: 0.65;
-} 
 .hero-text {
 	font-family: 'Corben', cursive;
-	background-color: #2828287a;
+	background-color: #28282896;
 	color: #e8e8e8;
 	border-radius: 1em;
 	margin: auto;
 	padding: 2em;
 }
-h1 {
-	font-size: 50px;
-}
-h2 {
-	font-size: 30px;
-}
 
-.carousel-item h5{
+/* Gallery */
+.carousel-item img {
+	margin: 0 auto;
+	width: auto !important;
+	height: 400px;
+	max-height: 400px;
+}
+.carousel-item h5 {
 	background-color: #2828289f;
 	padding: .5em;
 	border-radius: 5px;
 	width: max-content;
 	margin: auto;
 }
-.footer {
-	background-color: #181818;
-	color: #e8e8e8;
-}
+.carousel-control-prev, .carousel-control-next {
+  background: #88c2c9 !important;
+  /* filter: progid: none !important;
+  filter:none !important;
+	background-image:none; */
+	border-radius: 5px;
+	margin: 4em -1em;
+  outline: 0;
+  opacity: 1;
+ }
 .card {
-	margin: 1em;
+	/* margin: 1em; */
 	background-color: #e8e8e8;
+}
+.card-img-top {
+	height: 350px;
+	width: auto;
+}
+.modal-trigger-btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 3em;
 }
 #modal-trigger-btn {
 	color: #282828;
@@ -99,29 +139,17 @@ h2 {
 .btn {
 	background-color: #e8e8e8;
 }
+
+/* About */
 .about {
-	margin: 3em;
-}
-.about-img {
-	width: 700px;
-	border-radius: 8px;
-	margin-left: 2em;
-}
-.about h1 {
 	font-family: 'Corben', cursive;
-}
-.about-text {
-	margin: 5em;
+	background-color: #e8e8e8;
+	border-radius: 5px;
+	padding: 3em;
 }
 .shop {
 	font-family: 'Corben', cursive;
 	text-align: center;
 	margin: 2em;
 	color: #e8e8e8;
-}
-.modal-trigger-btn {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin-bottom: 3em;
 }
