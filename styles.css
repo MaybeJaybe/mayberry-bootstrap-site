@@ -3,7 +3,7 @@
 }
 body{
 	background-color: #282828;
-	color: #181818;
+	color: #080808;
 	font-family: 'Raleway', sans-serif;
 	/* font-family: 'Corben', cursive; */
 	/* font-family: 'Damion', cursive; */
@@ -29,6 +29,9 @@ body{
 /* Nav */
 .navbar {
 	background-color: #88c2c9;
+}
+.navbar :hover {
+	color: #4a4a4a;
 }
 .navbar-brand {
 	color: #181818;
