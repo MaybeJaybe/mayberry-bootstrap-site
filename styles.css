@@ -4,26 +4,31 @@
 body{
 	background-color: #282828;
 	color: #080808;
-	font-family: 'Raleway', sans-serif;
-	/* font-family: 'Corben', cursive; */
-	/* font-family: 'Damion', cursive; */
-	/* font-family: 'Berkshire Swash', cursive; */
-	/* font-family: 'Playfair Display', serif; */
-	/* font-family: 'Alegreya Sans SC', sans-serif; */
-	/* font-family: 'Diplomata SC', cursive; */
-	/* font-family: 'Ewert', cursive; */
-	/* font-family: 'Fascinate Inline', cursive; */
-	/* font-family: 'Girassol', cursive; */
-	/* font-family: 'Grand Hotel', cursive; */
-	/* font-family: 'IM Fell DW Pica SC', serif; */
-	/* font-family: 'Nerko One', cursive; */
-	/* font-family: 'Pompiere', cursive; */
-	/* font-family: 'Rye', cursive; */
-	/* font-family: 'Sancreek', cursive; */
-	/* font-family: 'Smokum', cursive; */
-	/* font-family: 'Walter Turncoat', cursive; */
+	font-family: 'Girassol', cursive;
 	font-size: 1em;
 	margin: 0;
+}
+
+#hero-title3{
+	font-family: 'Berkshire Swash', cursive;
+}
+#hero-title6{
+	font-family: 'Diplomata SC', cursive;
+}
+#hero-title7{
+	font-family: 'Ewert', cursive;
+}
+#hero-title9{
+	font-family: 'Girassol', cursive;
+}
+#hero-title14{
+	font-family: 'Rye', cursive;
+}
+#hero-title15{
+	font-family: 'Sancreek', cursive;
+}
+#hero-title16{
+	font-family: 'Smokum', cursive;
 }
 
 /* Nav */
@@ -80,8 +85,8 @@ body{
 	font-size: 2rem;
 }
 .hero-background-img {
-	background-color: #282828;
-  background-image: url("/images/scout-phase-5-scenery.jpeg");
+	/* background-color: #282828; */
+  background-image: url("images/scout-phase-5-scenery.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
 	background-position: bottom;
@@ -113,15 +118,18 @@ body{
 	margin: auto;
 }
 .carousel-control-prev, .carousel-control-next {
-  background: #88c2c9 !important;
-  /* filter: progid: none !important;
-  filter:none !important;
+	background: #88c2c9 !important;
+	/* filter: progid: none !important;
+	filter:none !important;
 	background-image:none; */
 	border-radius: 5px;
 	margin: 4em -1em;
   outline: 0;
-  opacity: 1;
- }
+	opacity: 1;
+}
+.card-deck {
+	display: flex;
+}
 .card {
 	/* margin: 1em; */
 	background-color: #e8e8e8;
